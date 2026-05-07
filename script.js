@@ -81,12 +81,13 @@ denominations.forEach(note => {
     <h3>₹${note}</h3>
 
     <input
-      type="number"
-      min="0"
-      value="0"
-      class="qty-input"
-      data-note="${note}"
-    >
+  type="tel"
+  inputmode="numeric"
+  pattern="[0-9]*"
+  placeholder="0"
+  class="qty-input"
+  data-note="${note}"
+>
 
     <h3 id="total-${note}">
       ₹0
@@ -134,7 +135,7 @@ function calculateTotal(){
     Number(input.dataset.note);
 
     const qty =
-    Number(input.value);
+Number(input.value || 0);
 
     const total = note * qty;
 
@@ -200,7 +201,7 @@ document.getElementById("clearBtn")
   document.querySelectorAll(".qty-input")
   .forEach(input => {
 
-    input.value = 0;
+    input.value = "";
 
   });
 
