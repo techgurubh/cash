@@ -84,7 +84,7 @@ body.light{
   width:100%;
   max-width:500px;
   margin:auto;
-  padding:12px;
+  padding:10px 12px 20px;
 }
 
 /* TOP BAR */
@@ -93,7 +93,7 @@ body.light{
   display:flex;
   justify-content:space-between;
   align-items:center;
-  margin-bottom:18px;
+  margin-bottom:10px;
   gap:10px;
 }
 
@@ -104,13 +104,13 @@ body.light{
 
 .mini-header h2{
   color:#3b82f6;
-  font-size:18px;
+  font-size:16px;
   margin-bottom:2px;
 }
 
 .mini-header p{
   color:#94a3b8;
-  font-size:11px;
+  font-size:10px;
 }
 
 /* CLEAR BUTTON */
@@ -165,9 +165,9 @@ body.light{
 
 .note-row{
   background:#1e293b;
-  padding:15px;
+  padding:10px 14px;
   border-radius:18px;
-  margin-bottom:15px;
+  margin-bottom:10px;
 
   display:flex;
   justify-content:space-between;
@@ -175,12 +175,12 @@ body.light{
 }
 
 .note-row input{
-  width:80px;
-  padding:10px;
+  width:72px;
+  height:52px;
   border:none;
-  border-radius:12px;
+  border-radius:16px;
   text-align:center;
-  font-size:16px;
+  font-size:18px;
   outline:none;
 }
 
@@ -188,9 +188,9 @@ body.light{
 
 .summary-card{
   background:#1e293b;
-  padding:20px;
+  padding:16px;
   border-radius:20px;
-  margin-top:15px;
+  margin-top:10px;
 }
 
 .total-row{
@@ -211,7 +211,7 @@ body.light{
 
 .amount-box h1{
   color:#22c55e;
-  font-size:34px;
+  font-size:28px;
 }
 
 #amountWords{
